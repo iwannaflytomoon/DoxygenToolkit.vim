@@ -280,7 +280,7 @@ let s:licenseTag = s:licenseTag . "Foundation, Inc., 59 Temple Place - Suite 330
 
 " Common standard constants
 if !exists("g:DoxygenToolkit_briefTag_pre")
-  let g:DoxygenToolkit_briefTag_pre = "@brief "
+  let g:DoxygenToolkit_briefTag_pre = "@Brief "
 endif
 if !exists("g:DoxygenToolkit_briefTag_post")
   let g:DoxygenToolkit_briefTag_post = ""
@@ -319,10 +319,10 @@ if !exists("g:DoxygenToolkit_fileTag")
   let g:DoxygenToolkit_fileTag = "@file "
 endif
 if !exists("g:DoxygenToolkit_authorTag")
-  let g:DoxygenToolkit_authorTag = "@author "
+  let g:DoxygenToolkit_authorTag = "@Author "
 endif
 if !exists("g:DoxygenToolkit_dateTag")
-  let g:DoxygenToolkit_dateTag = "@date "
+  let g:DoxygenToolkit_dateTag = "@Date "
 endif
 if !exists("g:DoxygenToolkit_versionTag")
   let g:DoxygenToolkit_versionTag = "@version "
